@@ -1,0 +1,30 @@
+.button {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 6px;
+
+}
+.button {
+    min-width: 150px;
+    padding: 10px 32px 10px 32px;
+    border-radius: 4px;
+    color: var(--primary-white-color);
+    background-color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+    background-color: #188ce8;
+}
+
+}
+
+
+
+/* margin: 350px 700px 200px 700px; */
+
