@@ -36,7 +36,24 @@
 
 .footer__container {
     align-items: baseline;
-    display: flex;
+   
+
+
+@media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+@media screen and (max-width: 480px) {
+   
+       
+
+  
+          
+    
+}
+
 }
 
 .footer__flex {
@@ -85,7 +102,13 @@
 }
 
 .footer__social {
-    margin-left: 70px;
+   
+
+@media screen and (min-width: 768px) {
+     margin-left: 70px;
+     
+    }
+
 }
 
 .footer__titel {
@@ -110,7 +133,12 @@
 }
 
 .footer__send {
-    margin-left: 93px;
+   
+
+@media screen and (min-width: 768px) {
+        margin-left: 93px;
+    }
+
 }
 
 .footer__sign {
@@ -124,8 +152,17 @@
 }
 
 .footer__box {
-    display: flex;
+   
+
+@media screen and (min-width: 768px) {
+        display: flex;
+    }
+
+
 }
+
+
+
 
 .footer__mail {
     margin-right: 12px;

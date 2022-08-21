@@ -13,12 +13,38 @@
 }
 
 .works {
-    display: flex;
-    justify-content: space-between;
+
+        display: flex;
+        gap: 30px;
+    
+    
 }
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .section__no-pudding-top {
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+
   
 .works__box {
     position: relative;
+    
+    
+    
 }
 
 .works__text {
