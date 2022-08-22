@@ -428,6 +428,8 @@ a {
 }
 
 .hero {
+  max-width: 1600px;
+  height: 600px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
