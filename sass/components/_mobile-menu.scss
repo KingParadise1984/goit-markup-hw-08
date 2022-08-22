@@ -95,11 +95,11 @@ a {
         color: #2196F3;
         margin-right: 10px;
 }
-.mobile-info__link {
+.mobile-info-link {
     display: flex;
    
 }
-.mobile-social__link::after {
+.mobile-info-link__item:not(:last-child) .mobile-social__link::after {
    content: '';
    width: 22px; 
    height: 0;
