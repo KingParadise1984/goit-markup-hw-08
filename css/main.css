@@ -129,11 +129,11 @@ a {
   padding: 0;
   height: 40px;
   cursor: pointer;
-  color: var(--title-text-color);
+  color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-menu__close-btn:hover, .mobile-menu__close-btn:focus {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .mobile-menu__close-icon {
@@ -170,7 +170,7 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-link__menu:hover, .mobile-link__menu:focus {
-  color: var(--accent-color);
+  color: var(--title-text-color);
 }
 
 .mobile-menu-contact {
@@ -826,16 +826,16 @@ a {
   fill: var(--primary-white-color);
 }
 
-.footer__container {
+.footer-container {
   align-items: baseline;
 }
 @media screen and (max-width: 767px) {
-  .footer__container {
+  .footer-container {
     text-align: center;
   }
 }
 @media screen and (min-width: 768px) {
-  .footer__container {
+  .footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
