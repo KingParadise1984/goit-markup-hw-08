@@ -130,7 +130,14 @@ text-decoration: none;
         line-height: 1.16;
         letter-spacing: 0.02em;
         color: #757575;
-}
+text-decoration: none;
+
+    @media screen and (max-width: 450px) {
+        font-size: 30px;
+    }
+
+
+    }
 .mobile-social__link {
         font-weight: 500;
         font-size: 18px;
