@@ -65,7 +65,9 @@
 
 }
 
-
+.footer__box {
+    width: 450px;
+}
 
 
 
@@ -89,7 +91,7 @@
 }
 
 .footer__suptitel {
-    margin-bottom: 9px;
+    
 @media screen and (min-width: 1200px) {
         margin-top: 9px;
     }
@@ -166,7 +168,7 @@
 
 
     @media screen and (min-width: 768px) {
-        margin-left: 93px;
+       
       
         flex-wrap: wrap;
     }
@@ -174,7 +176,7 @@
 }
 
 .footer__sign {
-    margin-top: 60px;
+  
     margin-bottom: 20px;
     color: var(--primary-white-color);
     font-weight: 700;

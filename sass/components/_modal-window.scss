@@ -204,15 +204,27 @@
 
 
 .modal__info {
+   
     margin-bottom: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 2;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+
+@media screen and (min-width: 1200px) {
+        font-size: 12px;
+        line-height: 1.71;
+        justify-content: center;
+    }
+
+
 }
+
+
+
 
 .modal__info::before {
     display: block;
@@ -229,7 +241,7 @@
 }
 
 
-
+         
   }
 
 .modal__doc {
@@ -239,6 +251,8 @@
     line-height: 2;
     letter-spacing: 0.03em;
     color: var(--title-text-color);
+
+
 }
 
 .modal__submit {
