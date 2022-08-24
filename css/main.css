@@ -952,6 +952,7 @@ a {
 }
 
 .footer__submit {
+  margin-top: 20px;
   justify-content: center;
   align-items: center;
   min-width: 200px;
