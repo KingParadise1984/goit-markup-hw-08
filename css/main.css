@@ -918,6 +918,7 @@ a {
 @media screen and (min-width: 768px) {
   .footer__send {
     margin-left: 93px;
+    flex-wrap: wrap;
   }
 }
 
@@ -930,12 +931,6 @@ a {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-@media screen and (min-width: 768px) {
-  .footer__box {
-    display: flex;
-  }
 }
 
 .footer__mail {

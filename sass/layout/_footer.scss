@@ -41,7 +41,7 @@
     }
 
     @media screen and (min-width: 768px) {
-
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -89,6 +89,7 @@
 .footer-form {
     @media screen and (max-width: 767px) {
         display: block;
+        
         // display: flex;
         //     flex-direction: column;
         //     flex-wrap: wrap;
@@ -104,6 +105,9 @@
 
 
     }
+
+
+
 }
 
 .footer__adress {
@@ -152,6 +156,7 @@
 
     @media screen and (min-width: 768px) {
         margin-left: 93px;
+        flex-wrap: wrap;
     }
 
 }
@@ -167,16 +172,7 @@
     text-transform: uppercase;
 }
 
-.footer__box {
 
-
-
-    @media screen and (min-width: 768px) {
-        display: flex;
-    }
-
-
-}
 
 
 
