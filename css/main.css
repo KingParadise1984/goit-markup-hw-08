@@ -981,6 +981,7 @@ a {
 }
 
 .footer__submit {
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   min-width: 200px;
@@ -997,6 +998,11 @@ a {
 }
 .footer__submit:hover, .footer__submit:focus {
   background-color: #188ce8;
+}
+@media screen and (min-width: 1200px) {
+  .footer__submit {
+    display: inline-flex;
+  }
 }
 
 .footer__submit::after {
