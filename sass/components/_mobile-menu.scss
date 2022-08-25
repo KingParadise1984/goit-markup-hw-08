@@ -17,7 +17,9 @@ a {
         flex-direction: column;
 }
 
-
+.mobile-link__menu.nav__link__current {
+    color: var(--title-text-color)
+}
 .mobile-menu {
     position: fixed;
     width: 100%;
