@@ -37,11 +37,12 @@
 
 
     @media screen and (max-width: 767px) {
+      
         text-align: center;
     }
 
     @media screen and (min-width: 768px) {
-       
+      
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -51,7 +52,7 @@
 
    @media screen and (min-width: 1200px) {
         .footer__box {
-            
+              width: 100%;
             display: flex;
     
         }
@@ -65,9 +66,7 @@
 
 }
 
-.footer__box {
-    width: 450px;
-}
+
 
 
 
@@ -108,7 +107,7 @@
     }
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-     
+     width: 450px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -192,7 +191,7 @@
 
 
 .footer__mail {
-    margin-right: 12px;
+   
     width: 100%;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
