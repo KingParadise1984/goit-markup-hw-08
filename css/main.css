@@ -167,10 +167,6 @@ a {
   color: var(--title-text-color);
 }
 
-.mobile-menu-contact {
-  margin-bottom: 64px;
-}
-
 .mobile-mail:not(:last-child) {
   margin-bottom: 32px;
 }
