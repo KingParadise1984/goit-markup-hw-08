@@ -16,9 +16,9 @@
 }
 
 .products__item {
-max-width: 450px;
 
-    @media screen and (max-width: 1099px) {
+
+    @media screen and (max-width: (1099px - 1px)) {
         &:not(:last-child) {
             margin-bottom: 30px;
         }

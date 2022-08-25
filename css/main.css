@@ -542,10 +542,7 @@ a {
   }
 }
 
-.products__item {
-  max-width: 450px;
-}
-@media screen and (max-width: 1099px) {
+@media screen and (max-width: 1098px) {
   .products__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -960,12 +957,10 @@ a {
   }
 }
 
-.footer__flex {
-  margin-bottom: 60px;
-}
-
-.footer__social {
-  margin-bottom: 60px;
+@media screen and (max-width: 767px) {
+  .footer__social {
+    margin-bottom: 60px;
+  }
 }
 
 .footer__submit {
@@ -1032,37 +1027,31 @@ a {
 }
 
 .modal {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 50%;
   left: 50%;
-  padding: 40px 40px;
-  max-width: 100%;
-  transform: translate(-50%, -50%);
-  width: 450px;
-  min-height: 609px;
-  background-color: rgb(255, 255, 255);
   transform: translate(-50%, -50%) scale(1);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform var(--transition);
+  padding: 40px;
+  background-color: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: calc(100vw - 30px);
+  margin: auto;
+  /* Заборона виділення текстуу, щоб не заважало користувачу */
+  user-select: none;
+  /* Ширина модального вікна на різну ширину вьюпорту */
 }
-@media screen and (min-width: 1199px) {
+@media screen and (min-width: 486px) and (max-width: 1199px) {
   .modal {
-    min-width: 528px;
-    min-height: 581px;
+    width: 450px;
   }
 }
-@media screen and (max-height: 450px) {
+@media screen and (min-width: 1200px) {
   .modal {
-    margin-top: 90px;
-  }
-}
-@media screen and (max-height: 485px) {
-  .modal {
-    margin-top: 70px;
-  }
-}
-@media screen and (max-height: 600px) {
-  .modal {
-    margin-top: 50px;
+    width: 528px;
   }
 }
 
