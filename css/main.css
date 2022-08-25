@@ -89,6 +89,7 @@ a {
 .mobile-menu___container {
   position: relative;
   padding-left: 25px;
+  padding-right: 25px;
   padding-top: 48px;
   padding-bottom: 48px;
   width: 100vw;
