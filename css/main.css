@@ -426,16 +426,13 @@ a {
   background-color: #c4c4c4;
   background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero.background.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-origin: border-box;
+  background-position: center;
 }
 
 @media screen and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.1), rgba(47, 48, 58, 0.1)), url("../img/mob.Header.img-min.jpg");
     max-width: 480px;
-    background-position: center top;
-    background-repeat: no-repeat;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
