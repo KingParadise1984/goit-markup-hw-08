@@ -514,11 +514,13 @@ a {
   .products {
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .products {
     display: flex;
+    gap: 30px;
   }
 }
 
@@ -535,17 +537,9 @@ a {
     flex-basis: calc((100% - 30px) / 2);
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .products__item:not(:nth-last-child(2n+1)) {
-    margin-right: 30px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .products__item {
     flex-basis: calc((100% - 90px) / 4);
-  }
-  .products__item:not(:last-child) {
-    margin-right: 30px;
   }
 }
 
