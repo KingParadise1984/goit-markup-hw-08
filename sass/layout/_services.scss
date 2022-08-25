@@ -28,13 +28,16 @@
 @media screen and (max-width: 1200px) {
 
     .section__no-pudding-top {
+      
         display: none;
     }
 
 }
 
 
-
+.section__no-pudding-top {
+    padding-top: 0px;
+}
 
 
 

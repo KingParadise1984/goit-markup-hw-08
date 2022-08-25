@@ -606,6 +606,10 @@ a {
     display: none;
   }
 }
+.section__no-pudding-top {
+  padding-top: 0px;
+}
+
 .works__box {
   position: relative;
 }
