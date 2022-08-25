@@ -295,6 +295,7 @@ a {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .nav {
     display: flex;
+    margin-left: 93px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -957,6 +958,14 @@ a {
     margin-bottom: 0px;
     max-width: 358px;
   }
+}
+
+.footer__flex {
+  margin-bottom: 60px;
+}
+
+.footer__social {
+  margin-bottom: 60px;
 }
 
 .footer__submit {
