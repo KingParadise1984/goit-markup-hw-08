@@ -831,6 +831,30 @@ a {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer__send {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__flex {
+    margin-right: 70px;
+    flex-grow: 1;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__flex {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__social {
+    margin-right: 93px;
+  }
+}
+
 .footer__logo {
   margin-bottom: 20px;
   display: inline-block;
