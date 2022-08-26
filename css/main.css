@@ -1208,11 +1208,16 @@ a {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+@media screen and (max-width: 1199px) {
+  .modal__info {
+    line-height: 1.67;
+    justify-content: center;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal__info {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.71;
-    justify-content: center;
   }
 }
 
