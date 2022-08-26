@@ -870,9 +870,9 @@ a {
   color: var(--primary-white-color);
 }
 
-@media screen and (min-width: 1200px) {
-  .footer__suptitel {
-    margin-top: 9px;
+@media screen and (max-width: 3500px) {
+  .footer__suptitel:not(:last-child) {
+    margin-bottom: 8px;
   }
 }
 

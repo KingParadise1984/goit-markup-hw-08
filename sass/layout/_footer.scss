@@ -88,6 +88,7 @@
             
 }
 
+
 .footer__social {
     @media screen and (min-width: 1200px) {
    margin-right: 93px;
@@ -115,10 +116,11 @@
     color: var(--primary-white-color);
 }
 
-.footer__suptitel {
+.footer__suptitel:not(:last-child) {
+   
 
-    @media screen and (min-width: 1200px) {
-        margin-top: 9px;
+    @media screen and (max-width: 3500px) {
+        margin-bottom: 8px;
     }
 
 }
