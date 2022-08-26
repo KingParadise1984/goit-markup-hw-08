@@ -552,6 +552,11 @@ a {
     flex-basis: calc((100% - 90px) / 4);
   }
 }
+@media screen and (max-width: 766px) {
+  .products__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 
 .products__box {
   margin-bottom: 30px;
